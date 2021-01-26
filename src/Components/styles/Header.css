@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #7d3c98;
+  justify-content: space-between;
+  color: #fff;
+  width: auto;
+  top: 0;
+  left: 0;
+}
+
+.MuiIconButton-root {
+  background-color: white;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar__channels {
+  overflow-y: scroll;
+  max-height: 400px;
+}

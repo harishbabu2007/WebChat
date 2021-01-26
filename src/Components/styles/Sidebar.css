@@ -1,0 +1,43 @@
+.sidebar {
+  background-color: #7d3c98;
+  padding: 10px;
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  height: 200%;
+}
+
+.sidebar__userinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar__name {
+  margin-right: 20px;
+}
+
+.sidebar__by {
+  display: flex;
+  align-items: center;
+}
+.sidebar__by > h1 {
+  margin-right: 10px;
+}
+
+.sidebar__online {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar__channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
